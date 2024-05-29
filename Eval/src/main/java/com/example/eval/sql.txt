@@ -1,0 +1,15 @@
+CREATE DATABASE e6358u_vehicules_db;
+USE vehicules_db;
+
+CREATE TABLE tvoiture (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(255) NOT NULL,
+    prix DOUBLE NOT NULL
+);
+CREATE TABLE tmoto (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nom VARCHAR(255) NOT NULL,
+    prix DOUBLE NOT NULL
+);
+
+(commande SQL utilisé dans phpMyAdmin)
